@@ -17,7 +17,10 @@
       <dmn:requiredInput href="#_530B65CD-31B2-4CCF-A2BC-845FA876B8DF"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_9DFDF5EB-161C-4D23-96BB-42C8B0098D02">
-      <dmn:text/>
+      <dmn:text>if Tipo de Cliente="" then
+    "El cliente no tiene asignado un tipo, validar con el CC"
+else
+    "El cliente es " + Tipo de Cliente + "!"</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmndi:DMNDI>
